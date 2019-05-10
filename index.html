@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  
+  <head>
+    <meta charset="utf-8">
+    <title>Lab Week 2</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.3/fetch.min.js"></script>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="js/finished.js"></script>
+  </head>
+  <body>
+      <style>
+          div.tooltip {	
+          position: absolute;			
+          text-align: center;			
+          width: 400px;					
+          height: 130px;					
+          padding: 2px;				
+          font: 12px sans-serif;		
+          background: lightsteelblue;	
+          border: 0px;		
+          border-radius: 8px;			
+          pointer-events: none;			
+          }
+
+        .image-border:hover {
+          stroke: black;
+          stroke-width: 1;
+        }
+
+        .line {
+            fill: none;
+            stroke: black;
+            stroke-width: 1;
+        }
+        </style>
+    <h2 style = "text-align:center;">Average Viewership By Season</h2>
+    <!-- <select id = "filter1"></select>
+    <select id = "filter2"></select> -->
+    <svg width= "500" height = "500">
+    </svg>
+  </body>
+</html>
